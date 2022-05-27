@@ -1,0 +1,12 @@
+database oficina
+table users 
+    -> cada usuário novo / 5 rows
+    -> contém id (AI PK), user_name, user_login, user_password (hash), user_oficina (nome da oficina)
+
+table oficina_shop 
+    -> cada ordem de serviço / 8 rows
+    -> contém id (AI PK), user_id (FK), plate, maker, model, service (descrição), date_in, date_out
+
+table financeiro
+    -> info de pagamento para cada user / 5 rows
+    -> contém id (AI PK), user_id (FK), value, deadline (dia), paid (bool. True até o deadline. Quando falso bloqueia o acesso)

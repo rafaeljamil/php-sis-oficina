@@ -1,0 +1,1 @@
+<h2 class="text-center">Home - Dashboard</h2>

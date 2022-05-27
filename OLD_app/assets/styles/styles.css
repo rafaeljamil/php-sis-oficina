@@ -1,0 +1,30 @@
+.bg-gray{
+    background-color: gray;
+}
+
+.txt-wht{
+    color: white;
+}
+
+.txt-wht:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.txt-blk{
+    color: black;
+}
+
+.txt-blk:hover{
+    color:gray;
+    font-weight: bolder;
+}
+
+.txt-ctr{
+    text-align: center;
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,7 @@
+Projeto Sistema Oficina-Loja:
+
+- Oficina e Loja são módulos separados
+- Banco de Dados local(?), backup local e pro drive do Google
+- Oficina: Cadastro de veículo, gerador de Ordem de Serviço, comunicação com o módulo da loja (caso disponível), situação (status), emissão de relatório de balanço (quinzenal, mensal, semestral, anual), espaço pra upload de fotos
+- Loja: cadastro de peças, observações, emissão de relatório de balanço (quinzenal, mensal, semestral, anual), espaço pra upload de fotos
+- Geral: configurações gerais, emissão de relatório de balanço (quinzenal, mensal, semestral, anual, total, de um módulo ou de tudo).

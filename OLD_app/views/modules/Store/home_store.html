@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/modules.css">
+    <script defer src="./assets/scripts/hidden_bits.js"></script>
+    <script defer src="./assets/scripts/jQuery_v3.6.0.js"></script>
+    <title>Loja</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="m">
+            <h2>Loja</h2>
+        </div>
+        <div>
+            <nav >
+                <a href="#">Cadastrar</a>
+                <a href="#">Buscar</a>
+            </nav>
+        </div>
+        <div id="cadastrar" class="hidden m padding">
+            <h3>Cadastro de Veículo</h3>
+            <form action="" method="post">
+                <input type="text" name="codigo" id="" placeholder="Código">
+                <input type="text" name="nome" id="" placeholder="Nome">
+                <textarea name="compativel" id="" cols="30" rows="3" placeholder="Compatível com..."></textarea>
+                <textarea name="obs" id="" cols="30" rows="3" placeholder="Observações"></textarea>
+                <input type="submit" value="Salvar">
+            </form>
+        </div>
+        <div id="buscar" class="hidden">
+            <h3>Busca</h3>
+            <form action="" method="post">
+                <input type="text" name="src-bar" id="" placeholder="Digite sua busca...">
+                <select name="src-optn" id="">
+                    <option value="codigo">Código</option>
+                    <option value="nome">Nome</option>
+                    <option value="compat" selected>Compatível com</option>
+                </select>
+                <input type="submit" value="Buscar">
+            </form>
+            <div id="result" class="hidden">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

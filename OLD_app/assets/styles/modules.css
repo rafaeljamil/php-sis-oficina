@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.m{
+    margin: 10px;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.wrapper nav a{
+    width: 65px;
+    height: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 6px 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+#cadastrar, #buscar{
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#cadastrar form, #buscar form{
+    display: grid;
+    grid-column: 1fr;
+    width: 250px;
+}
+
+#cadastrar form input, textarea, select, #buscar form input, textarea, select{
+    margin: 5px;
+    padding: 10px;
+    text-align: start;
+    box-shadow: 2px 2px rgb(160, 160, 160);
+    border: 1px solid rgb(160, 160, 160);
+    border-top: none;
+    border-left: none;
+    border-radius: 5px;
+}
+
+#cadastrar input[type=submit], #buscar input[type=submit]{
+    text-align: center;
+    width: 80px;
+    font-size: 16px;
+    margin: 2px auto;
+}

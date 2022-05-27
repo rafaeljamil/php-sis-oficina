@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/modules.css">
+    <script defer src="./assets/scripts/hidden_bits.js"></script>
+    <script defer src="./assets/scripts/jQuery_v3.6.0.js"></script>
+    <title>Oficina</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="m">
+            <h2>Oficina</h2>
+        </div>
+        <div>
+            <nav class="m">
+                <a href="#">Cadastrar</a>
+                <a href="#">Buscar</a>
+            </nav>
+        </div>
+        <div id="cadastrar" class="hidden m">
+            <h3>Cadastro de Veículo</h3>
+            <form action="" method="post">
+                <input type="text" name="placa" id="" placeholder="Placa">
+                <input type="text" name="modelo" id="" placeholder="Modelo">
+                <input type="number" min="1950" max="2099" name="fabricacao" id="" placeholder="Ano">
+                <textarea name="ordem_servico" id="" cols="30" rows="3" placeholder="Ordem de Serviço"></textarea>
+                <textarea name="obs" id="" cols="30" rows="3" placeholder="Observações"></textarea>
+                <input type="submit" value="Salvar">
+            </form>
+        </div>
+        <div id="buscar" class="hidden">
+            <h3>Busca</h3>
+            <form action="" method="post">
+                <input type="text" name="src-bar" id="" placeholder="Digite sua busca...">
+                <select name="src-optn" id="">
+                    <option value="nr-os">Ordem de Serviço</option>
+                    <option value="plate">Placa</option>
+                    <option value="yr">Ano</option>
+                    <option value="model">Modelo</option>
+                    <option value="date" selected>Data de entrada</option>
+                </select>
+                <input type="submit" value="Buscar">
+            </form>
+            <div id="result" class="hidden">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
